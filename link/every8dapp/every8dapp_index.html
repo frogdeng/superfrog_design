@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>專屬零元APP</title>
+<link href="css/every8dapp.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Slicebox - 3D Image Slider with Fallback" />
+        <meta name="keywords" content="jquery, css3, 3d, webkit, fallback, slider, css3, 3d transforms, slices, rotate, box, automatic" />
+		<meta name="author" content="Pedro Botelho for Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+        
+		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Volkhov:400italic,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="js/modernizr.custom.13303.js"></script>
+
+</head>
+
+<body onload="MM_preloadImages('images/btn1_hover.png','images/btn2_hover.png','images/btn3_hover.png')"><span style="color: #900"></span>
+<div class="top_wrapper">
+  <div class="top_link">
+    <ul>
+      <li><a href="#">關於EVERY8D</a></li>
+      <div class="top_link_line"></div>
+	<li><a href="#">刊登廣告</a></li>
+    <div class="top_link_line"></div>
+     <li><a href="#">隱私權政策</a></li>
+     <div class="top_link_line"></div>
+      <li><a href="#">聯絡客服</a></li>
+      <div class="top_link_line"></div>
+      <li><a href="#">合作提案</a></li>
+    </ul>
+  </div>
+  
+  <div class="top_logo"><img src="images/logo.png" width="287" height="88" /></div>
+  <div class="top_function">
+    <table width="766" height="60" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <th width="324" align="right" scope="col"><table width="280" height="32" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <th width="239" height="32" bgcolor="#99CCCC" scope="col"><input name="textfield" type="text" id="textfield" size="30" /></th>
+            <th width="41" align="left" bgcolor="#99CCCC" scope="col"><img src="images/search_48.png" width="28" height="28" /></th>
+          </tr>
+        </table></th>
+        <th width="16" align="left" scope="col">&nbsp;</th>
+        <th width="141" scope="col"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','images/btn1_hover.png',1)"><img src="images/btn1.png" name="Image5" width="137" height="46" border="0" id="Image5" /></a></th>
+        <th width="147" scope="col"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','images/btn2_hover.png',1)"><img src="images/btn2.png" name="Image6" width="137" height="46" border="0" id="Image6" /></a></th>
+        <th width="138" scope="col"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','images/btn3_hover.png',1)"><img src="images/btn3.png" name="Image7" width="137" height="46" border="0" id="Image7" /></a></th>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="menu_wrapper">
+
+  <div class="menu"> 
+    <ul>
+    <div class="menu_home"><a href="every8dapp_index.html"><img src="images/home.png" width="45" height="54" /></a></div>
+     <div class="menu_line"> </div>
+      <li><a href="every8dapp_knowus.html">認識我們</a> </li>
+      <div class="menu_line"> </div>
+      <li><a href="every8dapp_guide_a.html">新手上路</a></li>
+      <div class="menu_line"> </div>
+      <li><a href="every8dapp_channels_a.html">頻道市集</a></li>
+      <div class="menu_line"> </div>
+      <li><a href="#">頻道發燒星</a></li>
+      <div class="menu_line"> </div>
+      <li><a href="#">企業專區</a></li>
+         <div class="menu_line"> </div>
+      <div class="menu_my"><a href="#"><img src="images/my.png" width="118" height="54" /></a></div>
+    </ul>
+  </div>
+  <div class="clear"></div>
+  </div>
+
+<div class="body_wrapper">
+
+ <div class="body_left">
+   <div class="news">
+     <br />
+     <div class="news_title">
+     <table  height="26" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <th width="32" height="25" align="right" scope="col"><img src="images/gigi.png" width="25" height="25" /></th>
+    <th width="6" scope="col">&nbsp;</th>
+    <td width="124" height="25" align="left" scope="col">最新公告</td>
+  </tr>
+</table>
+ </div>
+     <p><a href="a">2012/2/3 忠泰建築文化藝術基金會受邀參加達人養成班忠泰建。</a></p>
+<p><a href="a">2012/2/3 TIVAC本週六下午3:00「新。影」展覽開幕</a></p>
+<p><a href="a">2012/2/3 Corel 設計達人養成班 免費報名要買要快!</a></p>
+<p><a href="a">2012/2/1 寶藏巖國際藝術村 微光春台北藝術進駐元宵燈節</a></p>
+<table width="261" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="209" height="30" align="center">&nbsp;</td>
+    <td width="52" height="30" align="center"><img src="images/more.jpg" width="52" height="16" /></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+   </div>
+   <div class="classify_wrapper">
+  <div class="classify_wrapper_top"><br />
+    <div class="news_title">
+      <table  height="26" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <th width="32" height="25" align="right" scope="col"><img src="images/gigi.png" width="25" height="25" /></th>
+          <th width="6" scope="col">&nbsp;</th>
+          <td width="124" height="25" align="left" scope="col">頻道市集</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="classify_wrapper_middle">
+    <div class="classify_left">
+      
+      <div class="classify_box">
+       <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify/category_03-10.png" width="21" height="20" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">名人偶像</a></td>
+         </tr>
+       </table>
+     </div>
+	<div class="classify_box">
+	  <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify/category_03-14.png" width="21" height="21" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">社會財經</a></td>
+         </tr>
+       </table>
+   </div>
+    <div class="classify_box">
+       <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify/category_03.png" width="21" height="21" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">商店消費</a></td>
+         </tr>
+       </table>
+     </div>
+    <div class="classify_box">
+       <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify/category_03-12.png" width="21" height="21" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">藝文娛樂</a></td>
+         </tr>
+       </table>
+     </div>
+    <div class="classify_box">
+       <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify/category_03-14.png" width="21" height="21" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">社會財經</a></td>
+         </tr>
+       </table>
+     </div>
+     <div class="classify_box">
+       <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify/category_03-14.png" width="21" height="21" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">其他等等</a></td>
+         </tr>
+       </table>
+     </div>
+ </div>
+ 
+ <div class="classify_right">
+
+	<div class="classify_box">
+       <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify/category_03-16.png" width="21" height="21" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">生活運用</a></td>
+         </tr>
+       </table>
+     </div>
+	<div class="classify_box">
+       <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify/category_03-08.png" width="21" height="20" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">流行資訊</a></td>
+         </tr>
+       </table>
+     </div>
+    <div class="classify_box">
+       <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify/category_03-18.png" width="21" height="21" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">社團活動</a></td>
+         </tr>
+       </table>
+     </div>
+    <div class="classify_box">
+       <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify.png" width="20" height="20" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">其他分類</a></td>
+         </tr>
+       </table>
+     </div>
+    <div class="classify_box">
+       <table border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="35" height="25" align="right" valign="middle" scope="col"><img src="images/classify/category_03-16.png" width="21" height="21" /></td>
+           <td width="70" height="25" align="center" valign="middle" scope="col"><a href="#">生活運用</a></td>
+         </tr>
+       </table>
+     </div>
+ </div><br />
+    <div class="clear"> </div>
+  </div>
+  <div class="classify_wrapper_bottom"></div>
+  <br />
+  
+ 
+ </div>
+   <div class="goofkang">
+     <br />
+     <div class="news_title">
+       <table  height="26" border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <th width="32" height="25" align="right" scope="col"><img src="images/gigi.png" width="25" height="25" /></th>
+           <th width="6" scope="col">&nbsp;</th>
+           <td width="124" height="25" align="left" scope="col">好康放送</td>
+         </tr>
+       </table>
+     </div>
+    <a href="#">百萬百萬校際英雄盃大賽即將開跑放眼為國爭光寶藏巖國際藝術村微光春聚。</a><a href="#">寶藏巖國際藝術村微光春聚台北藝術進駐元宵燈節 。</a><a href="#">智邦藝術館2012首展「偽物」邀您一同游離在真假曖昧的空間裡。</a></div>
+   <br />
+   <div class="topten">
+     <div class="news_title">
+       <table  height="26" border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <th width="32" height="25" align="right" scope="col"><img src="images/gigi.png" width="25" height="25" /></th>
+           <th width="6" scope="col">&nbsp;</th>
+           <td width="124" height="25" align="left" scope="col">TOP10</td>
+         </tr>
+       </table>
+   </div>
+     <table align="center" width="258" border="0" cellpadding="0" cellspacing="0" class="frame_topten">
+       <tr>
+         <td width="33" height="23" scope="col">1</td>
+         <td width="173" height="23" align="left" scope="col"><a href="#">柚子之家</a><br /></td>
+         <td width="52" height="23" align="center" scope="col"> <span style=" color:#900; font-family:Verdana, Geneva, sans-serif;">1800</span></td>
+       </tr>
+           <tr>
+         <td width="33" height="23" scope="col">2</td>
+         <td width="173" height="23" align="left" scope="col"><a href="#">金山財神廟</a><br /></td>
+         <td width="52" height="23" align="center" scope="col"> <span style="color:#900; font-family:Verdana, Geneva, sans-serif;">1600</span></td>
+       </tr>
+           <tr>
+         <td width="33" height="23" scope="col">3</td>
+         <td width="173" height="23" align="left" scope="col"><a href="#">M醫美</a><br /></td>
+         <td width="52" height="23" align="center" scope="col"> <span style=" color:#900; font-family:Verdana, Geneva, sans-serif;">800</span></td>
+       </tr>
+           <tr>
+         <td width="33" height="23" scope="col">4</td>
+         <td width="173" height="23" align="left" scope="col"><a href="#">阿姆斯勒朗旋風噴射阿姆斯...</a></td>
+         <td width="52" height="23" align="center" scope="col"> <span style=" color:#900; font-family:Verdana, Geneva, sans-serif;">700</span></td>
+       </tr>
+           <tr>
+         <td width="33" height="23" scope="col">5</td>
+         <td width="173" height="23" align="left" scope="col"><a href="#">台灣金剛</a><br /></td>
+         <td width="52" height="23" align="center" scope="col"> <span style=" color:#900; font-family:Verdana, Geneva, sans-serif;">600</span></td>
+       </tr>
+           <tr>
+         <td width="33" height="23" scope="col">6</td>
+         <td width="173" height="23" align="left" scope="col"><a href="#">反知覺才回應</a><br /></td>
+         <td width="52" height="23" align="center" scope="col"> <span style=" color:#900; font-family:Verdana, Geneva, sans-serif;">500</span></td>
+       </tr>
+           <tr>
+         <td width="33" height="23" scope="col">7</td>
+         <td width="173" height="23" align="left" scope="col"><a href="#">三國無雙猛將傳</a><br /></td>
+         <td width="52" height="23" align="center" scope="col"> <span style=" color:#900; font-family:Verdana, Geneva, sans-serif;">400</span></td>
+       </tr>
+           <tr>
+         <td width="33" height="23" scope="col">8</td>
+         <td width="173" height="23" align="left" scope="col"><a href="#">湯姆艾力克斯</a><br /></td>
+         <td width="52" height="23" align="center" scope="col"> <span style=" color:#900; font-family:Verdana, Geneva, sans-serif;">300</span></td>
+       </tr>
+              <tr>
+         <td width="33" height="23" scope="col">9</td>
+         <td width="173" height="23" align="left" scope="col"><a href="#">周杰倫</a><br /></td>
+         <td width="52" height="23" align="center" scope="col"> <span style=" color:#900; font-family:Verdana, Geneva, sans-serif;">200</span></td>
+       </tr>
+              <tr>
+         <td width="33" height="23" scope="col">10</td>
+         <td width="173" height="23" align="left" scope="col"><a href="#">小王子</a><br /></td>
+         <td width="52" height="23" align="center" scope="col"> <span style="color:#900; font-family:Verdana, Geneva, sans-serif;">6</span></td>
+       </tr>
+     </table>
+     
+     <div class="more">
+       <table width="261" border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="209" height="30" align="center">&nbsp;</td>
+           <td width="52" height="30" align="center"><img src="images/more.jpg" width="52" height="16" /></td>
+         </tr>
+     </table>
+     </div>
+   </div>
+ </div>
+ <p>&nbsp;</p>
+ <div class="body_right">
+<div id="sb-slider" class="sb-slider">
+				<img src="images/1.jpg" title="COOL"/>
+                <img src="images/2.jpg" title="SUPERFROG"/>
+                <img src="images/3.jpg" title="台灣鋼鐵人"/>
+                <img src="images/4.jpg" title="SUPERFROG"/>
+                <img src="images/5.jpg" title="5555"/>
+                <img src="images/6.jpg" title="6666"/>
+				<img src="images/7.jpg" title="777"/>
+                <img src="images/2.jpg" title="777"/>
+
+</div>
+<br /><br />
+<div class="hot_title">
+  <table width="327" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="52"><img src="images/earth.png" width="30" height="30" /></td>
+      <td width="275" align="left">HOT!頻道熱推</td>
+    </tr>
+  </table>
+</div>
+<div class="hot_wrapper">
+  <div class="hot_box"> <a href="#"><img src="images/uu.png" width="92" height="92" /></a>
+       <h1><a href="#">台北好好玩玩</a></h1>
+       <p>
+         台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!!台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!!
+        </p>
+       <a href="#"><img src="images/order.png" width="87" height="20" /></a>
+  </div><div class="hot_box"> <a href="#"><img src="images/uu1.png" width="92" height="92" /></a>
+       <h1><a href="#">台北好好玩玩</a></h1>
+       <p>
+         台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!!
+        </p>
+       <a href="#"><img src="images/order.png" width="87" height="20" /></a>
+  </div>
+  <div class="clear"> </div>
+     <div class="hot_box_line"></div>
+	  <div class="hot_box"> <a href="#"><img src="images/uu2.png" width="92" height="92" /></a>
+       <h1><a href="#">台北好好玩玩</a></h1>
+       <p>
+         台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!!
+        </p>
+       <a href="#"><img src="images/order.png" width="87" height="20" /></a>
+      </div><div class="hot_box"> <a href="#"><img src="images/uu3.png" width="92" height="92" /></a>
+       <h1><a href="#">台北好好玩玩</a></h1>
+       <p>
+         台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!!
+        </p>
+       <a href="#"><img src="images/order.png" width="87" height="20" /></a>
+      </div>
+  <div class="clear"> </div>
+     <div class="hot_box_line"></div>
+	  <div class="hot_box"> <a href="#"><img src="images/uu4.png" width="92" height="92" /></a>
+       <h1><a href="#">台北好好玩玩</a></h1>
+       <p>台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!! 台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!!        台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!!        </p>
+       <a href="#"><img src="images/order.png" width="87" height="20" /></a>
+      </div><div class="hot_box"> <a href="#"><img src="images/uu5.png" width="92" height="92" /></a>
+       <h1><a href="#">台北好好玩玩</a></h1>
+       <p>
+         台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!!
+        </p>
+       <a href="#"><img src="images/order.png" width="87" height="20" /></a>
+      </div>
+  <div class="clear"> </div>
+     <div class="hot_box_line"></div>
+</div>
+<div class="brand_wrapper">
+  <div class="brand_wrapper_left">
+    <div class="brand_box_left_title">
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="38" height="30" align="left"><img src="images/c1.png" width="30" height="30" /></td>
+          <td width="118" align="left">公佈欄</td>
+        </tr>
+      </table>
+    </div>
+    <div class="brand_wrapper_left_box"><img src="images/uu5.png" width="92" height="92" />
+      <h1><a href="#">台北好好玩玩</a></h1>
+      <p> 台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!! </p>
+      <a href="#"><img src="images/order.png" width="87" height="20" /></a><br />
+    </div>
+  </div><div class="brand_wrapper_right">
+  <div class="brand_box_right_title">
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="30" height="30"><img src="images/c2.png" width="30" height="30" /></td>
+        <td width="126" align="left">頻道發燒星</td>
+      </tr>
+    </table>
+  </div>
+      <div class="brand_wrapper_right_box"><img src="images/uu6.png" width="92" height="92" />
+        <h1><a href="#">台北好好玩玩</a></h1>
+        <p> 台灣鋼鐵老泰山最真實可愛的一面，看大明星分享旅人日誌、生活點滴、健身秘笈!! </p>
+        <a href="#"><img src="images/order.png" width="87" height="20" /></a><br />
+  </div>
+    
+</div>
+
+
+<div class="clear"></div>
+</div><br />
+
+<div class="newch">
+  <div class="newch_title">
+    <table width="356" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="36" height="30" align="left"><img src="images/c1.png" width="30" height="30" /></td>
+        <td width="320" align="left">NEW 最新頻道</td>
+      </tr>
+    </table>
+  </div>
+  <div class="newch_title_go">
+    <div class="newch_arrow"><img src="images/arrow1.png" width="20" height="125" /></div>
+    <div class="newch_title_box"> <img src="images/uu.png" width="92" height="92" />  台灣不死鳥</div>
+    <div class="newch_title_box"> <img src="images/uu1.png" width="92" height="92" />  台灣無敵王</div>
+    <div class="newch_title_box"> <img src="images/uu2.png" width="92" height="92" />  阿姆斯勒朗旋風噴射阿姆斯特朗砲</div>
+    <div class="newch_title_box"> <img src="images/uu3.png" width="92" height="92" />  台灣不死鳥</div>
+    <div class="newch_title_box"> <img src="images/uu4.png" width="92" height="92" />肉腳特攻隊之無敵暴走艦隊</div>
+    <div class="newch_title_box"> <img src="images/uu5.png" width="92" height="92" />  阿姆斯勒朗旋風噴射阿姆斯特朗砲</div>
+    <div class="newch_arrow"><img src="images/arrow2.png" width="20" height="125" /></div>
+  </div>
+</div>
+ </div>
+  <div class="clear"></div>
+</div>
+
+<div class="footer_wrapper">
+
+<br />
+<table width="588" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="165" align="left" scope="col"><img src="images/e8d2.png" width="150" height="27" /></td>
+    <td width="423" align="left" scope="col">免費客服電話：0800-618688 ∣ 室內客服電話：02-8913-1559#166 <br />
+      新北市新店區北新路三段207-2號5樓(台北矽谷大樓)<br />
+      Copyright © 2012 互動資通股份有限公司版權所有，轉載必究</td>
+  </tr>
+</table>
+
+
+</div>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slicebox.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				$('#sb-slider').slicebox({
+					orientation			: 'h'
+				});
+				
+				if( !Modernizr.csstransforms3d ) {
+					$('#sb-note').show();
+					
+					$('body').append(
+						$('script').attr( 'type', 'text/javascript' ).attr( 'src', 'js/jquery.easing.1.3.js' )
+					);
+				}	
+			});
+		</script>
+
+</body>
+</html>

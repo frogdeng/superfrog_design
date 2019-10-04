@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>專屬零元APP</title>
+
+<style type="text/css">
+
+#picBox{width:900px; 
+		height:226px; margin:0 auto; padding-top:30px;  
+		overflow:hidden; position:relative;
+		}
+#picBox ul#show_pic{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:226px;
+	width:5400px;
+	position:absolute;
+	top: 0px;
+}
+#picBox ul#show_pic li{ float:left; margin:0; padding:0; height:242px;}
+#picBox ul#show_pic li img{ display:block;}
+#icon_num{
+	position:absolute;
+	bottom:7px;
+	right:11px;
+}
+#icon_num li{ float:left; background:url(imgs/flashbutton.gif) no-repeat -15px 0;width:15px; height:15px; list-style:none; color:#39F; text-align:center;  cursor:pointer; padding:0; margin:0;margin-right:5px;}
+#icon_num li:hover,#icon_num li.active{ background:url(imgs/flashbutton.gif) no-repeat 0 0; color:#fff;}
+
+#picBox_top{width:580px; height:250px; margin:50px auto; position:relative; overflow:hidden;}
+#picBox_top ul#show_pic_top{ margin:0; padding:0; list-style:none; height:205px; width:610px; position:absolute;}
+#picBox_top ul#show_pic_top li{ float:left; margin:0; padding:0; height:205px;}
+#picBox_top ul#show_pic_top li img{ display:block;}
+#icon_num_top{ position:absolute; bottom:0px; right:10px;}
+#icon_num_top li{ float:left; background:url(imgs/flashbutton.gif) no-repeat -15px 0;width:15px; height:15px; list-style:none; color:#39F; text-align:center;  cursor:pointer; padding:0; margin:0;margin-right:5px;}
+#icon_num_top li:hover,#icon_num_top li.active{ background:url(imgs/flashbutton.gif) no-repeat 0 0; color:#fff;}
+
+
+
+
+
+</style>
+
+
+
+<link href="css/every8dapp.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+ <script type="text/javascript" src="js/menu.js"></script>
+
+<script type="text/javascript">
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+
+function AAA(){
+	document.haha.src = "images/lala.png";
+}
+function BBB(){
+	document.haha.src = "images/lala2.png";
+}
+
+
+
+
+</script>
+
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="MM_preloadImages('images/btn1_hover.png','images/btn2_hover.png','images/btn3_hover.png')"><span style="color: #900"></span>
+<div class="top_wrapper">
+  <div class="top_link">
+    <ul>
+      <li><a href="#">關於EVERY8D</a></li>
+      <div class="top_link_line"></div>
+	<li><a href="#">刊登廣告</a></li>
+    <div class="top_link_line"></div>
+     <li><a href="#">隱私權政策</a></li>
+     <div class="top_link_line"></div>
+      <li><a href="#">聯絡客服</a></li>
+      <div class="top_link_line"></div>
+      <li><a href="#">合作提案</a></li>
+    </ul>
+  </div>
+  
+  <div class="top_logo"><img src="images/logo.png" width="287" height="88" /></div>
+  <div class="top_function">
+    <table width="766" height="60" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <th width="324" align="right" scope="col"><table width="280" height="32" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <th width="239" height="32" bgcolor="#99CCCC" scope="col"><input name="textfield" type="text" id="textfield" size="30" /></th>
+            <th width="41" align="left" bgcolor="#99CCCC" scope="col"><img src="images/search_48.png" width="28" height="28" /></th>
+          </tr>
+        </table></th>
+        <th width="16" align="left" scope="col">&nbsp;</th>
+        <th width="141" scope="col"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','images/btn1_hover.png',1)"><img src="images/btn1.png" name="Image5" width="137" height="46" border="0" id="Image5" /></a></th>
+        <th width="147" scope="col"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','images/btn2_hover.png',1)"><img src="images/btn2.png" name="Image6" width="137" height="46" border="0" id="Image6" /></a></th>
+        <th width="138" scope="col"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','images/btn3_hover.png',1)"><img src="images/btn3.png" name="Image7" width="137" height="46" border="0" id="Image7" /></a></th>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="menu_wrapper">
+
+  <div class="menu"> 
+    <ul>
+    <div class="menu_home"><img src="images/home.png" width="45" height="54" /></div>
+     <div class="menu_line"> </div>
+      <li><a href="#">認識我們</a> </li>
+      <div class="menu_line"> </div>
+      <li><a href="#">新手上路</a></li>
+      <div class="menu_line"> </div>
+      <li><a href="#">頻道市集</a></li>
+      <div class="menu_line"> </div>
+      <li><a href="#">頻道發燒星</a></li>
+      <div class="menu_line"> </div>
+      <li><a href="#">企業專區</a></li>
+         <div class="menu_line"> </div>
+      <div class="menu_my"><a href="#"><img src="images/my.png" width="118" height="54" /></a></div>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="hotstar_brand">
+  <div id="picBox">
+    <ul id="show_pic" style="left:0px;">
+    <li><a href="#"><img src="img/ss01.jpg" width="900" height="226"/></a></li>
+    <li><a href="#"><img src="img/ss02.jpg" width="900" height="226"/></a></li>
+    <li><a href="#"><img src="img/ss03.jpg" width="900" height="226"/></a></li>
+    <li><a href="#"><img src="img/ss04.jpg" width="900" height="226"/></a></li>
+    <li><a href="#"><img src="img/ss05.jpg" width="900" height="226"/></a></li>
+    <li><a href="#"><img src="img/ss06.jpg" width="900" height="226"/></a></li>
+  </ul>
+  <ul id="icon_num">
+    <li class="active">1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+  </ul>
+</div></div>
+
+<br />
+<div class="hotstar_wrapper">
+  <div class="hotstar_left">
+    <div class="hotstar_left_title">
+      <table width="190" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <th width="43" height="30"><img src="images/icon_03.png" width="30" height="30" /></th>
+    <th width="147" height="30" align="left">今日我最夯</th>
+    </tr>
+</table>
+  <ul>
+   <li><a href="#">1</a></li>
+   <li><a href="#">2</a></li>
+   <li><a href="#">3</a></li>
+   <li><a href="#">4</a></li>
+   <li><a href="#">5</a></li>
+  </ul>
+</div>
+ 
+  <div class="hotstar_left_cool">
+  <img src="images/uu.png" width="92" height="92" />
+    <h1>台灣剛剛人</h1>
+    <p> 紐約尼  </p>
+    <table width="266" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="102" align="left"><input type="submit" name="button" id="button" value="我要投票" /></td>
+        <td width="268">&nbsp;</td>
+      </tr>
+    </table>
+    
+   <div class="clear"></div>
+  </div>
+  
+  
+</div>
+   <div class="hotstar_right">
+     <p>主辦單位：EVERY8D     <br />
+       承辦單位：ERY8D     <br />
+       協辦單位：台北市政府、嘉義市政府、1111人力銀行、123人力銀行、104人力銀行、518人力銀行、999人力銀行、543人力銀行。<br />
+     </p>
+   </div>
+  <div class="clear"></div>
+</div>
+<br />
+<div class="hotstar_explain">
+  <table  border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <th width="50" height="30" align="center"><img src="images/icon_03.png" width="30" height="30" /></th>
+      <th width="286" height="30" align="left">頻道發燒星活動說明</th>
+    </tr>
+  </table>
+  <p>「零輸豪」驚奇之旅持續延續！林書豪生涯第6次先發即繳出第3度雙十成績，攻得10分，並送出生涯新高13助攻，率領尼克回主場麥迪遜花園以100比85大勝沙加緬度國王隊，取得7連勝，戰績重回5成(15勝15負)。
+    尼克此役開局打得漂亮，一路領先至決勝節已達25分差，尼克總教練Mike D'Antoni讓林書豪提前下場休息，紐約球迷繼前幾場高呼「MVP」，再響起「我們要林書豪(We want Lin)！」，顯示當紅炸子雞的人氣魅力。<br />
+  林書豪則以破紀錄的13助攻，展現本戰分享的球風，儘管只上場26分鐘，仍達成生涯第3度雙十，攻得10分、5籃板、6失誤。賽後伴隨全場觀眾「MVP」讚美聲，林書豪受訪時說：「非常享受在這打球與熱情觀眾的歡呼，勝利是屬於大家的。」  <br />
+林書豪比賽初期表現優異，首開局就強勢地切入籃下，球進算加罰，成功的「三分打」激起球隊進攻欲望，尼克單節命中率50%，反觀國王投20中6、命中率僅20%。因此儘管林書豪最後2分25秒下場休息，被對手打了一波4比0攻勢，尼克首節仍以25比17領先。<br />
+ 林書豪此節5分、6助攻、1籃板，包括2次分別妙傳給隊友Landry Fields與Tyson Chandler第一時間灌籃，以及1次殺進禁區繞了一圈上籃，宛如太陽隊當家控衛Steve Nash，多次精彩表現讓主場觀眾大呼過癮。<br />
+  </p>
+  <table width="987" height="34" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="201">&nbsp;</td>
+      <td width="506">&nbsp;</td>
+      <td width="143" align="left"><a href="#"><img src="images/nm2.png" width="120" height="30" /></a></td>
+      <td width="137" align="left"><a href="#"><img src="images/nm1.png" width="120" height="30" /></a></td>
+    </tr>
+  </table>
+</div>
+
+<br />
+<div class="hotstar_stars_btn">
+<table width="200" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/lala.png" name="haha" width="295" height="50" id="haha" onmouseover="BBB()" onmouseout="AAA()" /></td>
+  </tr>
+</table>
+
+</div>
+<br />
+
+
+
+
+
+<div class="clear"></div>
+
+
+<div class="footer_wrapper">
+
+<br />
+<table width="588" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="165" align="left" scope="col"><img src="images/e8d2.png" width="150" height="27" /></td>
+    <td width="423" align="left" scope="col">免費客服電話：0800-618688 ∣ 室內客服電話：02-8913-1559#166 <br />
+      新北市新店區北新路三段207-2號5樓(台北矽谷大樓)<br />
+      Copyright © 2012 互動資通股份有限公司版權所有，轉載必究</td>
+  </tr>
+</table>
+
+
+</div>
+
+<script type="text/javascript">
+/**
+ *glide.layerGlide((oEventCont,oSlider,sSingleSize,sec,fSpeed,point);
+ *@param auto type:bolean 是否自动滑动 当值是true的时候 为自动滑动
+ *@param oEventCont type:object 包含事件点击对象的容器
+ *@param oSlider type:object 滑动对象
+ *@param sSingleSize type:number 滑动对象里单个元素的尺寸（width或者height）  尺寸是有point 决定
+ *@param second type:number 自动滑动的延迟时间  单位/秒
+ *@param fSpeed type:float   速率 取值在0.05--1之间 当取值是1时  没有滑动效果
+ *@param point type:string   left or top
+ */
+var glide =new function(){
+	function $id(id){return document.getElementById(id);};
+	this.layerGlide=function(auto,oEventCont,oSlider,sSingleSize,second,fSpeed,point){
+		var oSubLi = $id(oEventCont).getElementsByTagName('li');
+		var interval,timeout,oslideRange;
+		var time=1; 
+		var speed = fSpeed 
+		var sum = oSubLi.length;
+		var a=0;
+		var delay=second * 1000; 
+		var setValLeft=function(s){
+			return function(){
+				oslideRange = Math.abs(parseInt($id(oSlider).style[point]));	
+				$id(oSlider).style[point] =-Math.floor(oslideRange+(parseInt(s*sSingleSize) - oslideRange)*speed) +'px';		
+				if(oslideRange==[(sSingleSize * s)]){
+					clearInterval(interval);
+					a=s;
+				}
+			}
+		};
+		var setValRight=function(s){
+			return function(){	 	
+				oslideRange = Math.abs(parseInt($id(oSlider).style[point]));							
+				$id(oSlider).style[point] =-Math.ceil(oslideRange+(parseInt(s*sSingleSize) - oslideRange)*speed) +'px';
+				if(oslideRange==[(sSingleSize * s)]){
+					clearInterval(interval);
+					a=s;
+				}
+			}
+		}
+		
+		function autoGlide(){
+			for(var c=0;c<sum;c++){oSubLi[c].className='';};
+			clearTimeout(interval);
+			if(a==(parseInt(sum)-1)){
+				for(var c=0;c<sum;c++){oSubLi[c].className='';};
+				a=0;
+				oSubLi[a].className="active";
+				interval = setInterval(setValLeft(a),time);
+				timeout = setTimeout(autoGlide,delay);
+			}else{
+				a++;
+				oSubLi[a].className="active";
+				interval = setInterval(setValRight(a),time);	
+				timeout = setTimeout(autoGlide,delay);
+			}
+		}
+	
+		if(auto){timeout = setTimeout(autoGlide,delay);};
+		for(var i=0;i<sum;i++){	
+			oSubLi[i].onmouseover = (function(i){
+				return function(){
+					for(var c=0;c<sum;c++){oSubLi[c].className='';};
+					clearTimeout(timeout);
+					clearInterval(interval);
+					oSubLi[i].className="active";
+					if(Math.abs(parseInt($id(oSlider).style[point]))>[(sSingleSize * i)]){
+						interval = setInterval(setValLeft(i),time);
+						this.onmouseout=function(){if(auto){timeout = setTimeout(autoGlide,delay);};};
+					}else if(Math.abs(parseInt($id(oSlider).style[point]))<[(sSingleSize * i)]){
+							interval = setInterval(setValRight(i),time);
+						this.onmouseout=function(){if(auto){timeout = setTimeout(autoGlide,delay);};};
+					}
+				}
+			})(i)			
+		}
+	}
+}
+glide.layerGlide(true,'icon_num','show_pic',900,5,0.03,'left');
+
+</script>
+
+
+
+</body>
+</html>

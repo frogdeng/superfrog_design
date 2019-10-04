@@ -1,0 +1,700 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("reset.css");
+
+body{
+	background-image:url(../img/talking_index_01.jpg);
+	background-repeat:repeat-x;}
+	
+	
+/*=====手看輪播====*/	
+
+.wrapper_brand{
+	width:951px;
+	height:338px;
+	background-image:url(../img/talking_index_0000.png);
+	margin:0 auto;
+	position:relative;}
+	
+	
+.wrapper_funsong_detail{
+	position:absolute;
+	width:377px;
+	height:188px;
+	left: 67px;
+	top: 26px;
+	}	
+
+.wrapper_funsong_detail h1{
+	color:#666;
+	font-size:20px;}
+
+.wrapper_funsong_detail p{
+	font-size:12px;
+	line-height:18px;}
+.wrapper_funsong_detail table{
+	margin:0 auto;
+	}
+
+
+
+
+	
+.wrapper_funsong{
+	position:absolute;
+	width:439px;
+	height:100px;
+	top: 20px;
+	left: 467px;
+}	
+
+
+
+.funsongbox{
+	width:65px;
+	height:95px;
+	float:left;
+	margin:0 10px;
+	}
+	
+.funsongbox h6{
+	font-size:13px;
+	color:#333;
+	}
+	
+	
+.gofunsong{
+	position:absolute;
+	width:444px;
+	height:138px;
+	left: 467px;
+	top: 124px;
+	border-top:#999 1px solid;
+	
+}
+		
+.gofunsong table{
+	margin:0 auto;}
+.gofunsong h1{
+	font-size:20px;
+	font-weight:bold;
+	color:#036;
+	}
+
+.gofunsong p{
+	font-size:12px;
+	line-height:18px;
+	color:#069;}
+
+
+	
+	
+/*==*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+.wrapper_top{
+	width:951px;
+	height:150px;
+	margin:0 auto;
+	background-image:url(../img/talking_index_03.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	position:relative;}
+	
+.wrapper_top_logo{
+	position:absolute;
+	width:88px;
+	height:88px;
+	top: 41px;
+	left: 47px;
+}
+
+.wrapper_top_login{
+	position:absolute;
+	width:231px;
+	height:79px;
+	left: 690px;
+	top: 77px;
+}
+
+
+.wrapper_top_login a{
+	color:#069;
+	font-size:12px;
+}
+
+
+
+.wrapper_top_toplink{
+	position:absolute;
+	width:331px;
+	height:24px;
+	font-size:12px;
+	color:#FFF;
+	top: 9px;
+	left: 617px;
+}
+
+.wrapper_top_toplink a{
+	font-size:12px;
+	text-decoration:none;
+	color:#FFF;
+	}
+
+.wrapper_top_toplink a:hover{
+	text-decoration:underline;
+	color:#069;}		
+	
+.wrapper_menu{
+	width:951px;
+	height:74px;
+	margin:0 auto;
+	background-image:url(../img/talking_index_05.png);}
+	
+	
+.wrapper_menu ul{
+	margin-left:40px;}	
+.wrapper_menu li{
+	display:inline;}	
+.wrapper_menu li a{
+	display:block;
+	width:118px;
+	height:41px;
+	float:left;
+	margin-left:20px;
+	margin-top:14px;
+	background-image:url(../img/mmm1.png);
+	font-size:13px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+	line-height:28px;
+	text-decoration:none;
+	
+	}	
+.wrapper_menu li a:hover{
+	background-image:url(../img/mmm2.png);}	
+	
+.wrapper_logoin{
+	width:100px;
+	height:41px;
+	float:left;
+	margin-left:35px;
+	margin-top:14px;
+	}
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+.brand_a{
+	width:544px;
+	height:315px;
+	background-image:url(../img/brand.png);
+	margin-left:388px;
+	}
+	
+
+		
+		
+		
+/*======*/	
+	
+.wrapper_event{
+	width:951px;
+	height:390px;
+	background-image:url(../img/talking_index_06.png);
+	margin:0 auto;}	
+	
+	
+	
+.event_mode{
+	width:900px;
+	height:300px;
+	margin:0 auto; 
+	}		
+	
+.event_mode_box{
+	width:270px;
+	height:230px;
+	float:left;
+	margin-top:40px;
+	margin-left:13px;
+	margin-right:13px;
+	position:relative;
+	 }		
+	
+	
+.event_mode_box_pic{
+	position:absolute;
+	width: 85px;
+	height: 137px;
+	left: 6px;
+	top: 11px;
+}	
+.event_mode_box_title{
+	position:absolute;
+	width: 160px;
+	height: 27px;
+	left: 101px;
+	top: 12px;
+		}
+		
+.event_mode_box_title a{
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Lucida Console", Monaco, monospace;
+	text-decoration:none;
+	color:#FFF;
+}	
+
+
+.event_mode_box_title a:hover{
+	color:#FF6;
+
+}	
+
+
+
+			
+.event_mode_box_text{
+	position:absolute;
+	color:#FFF;
+	font-size:13px;
+	line-height:20px;
+	width: 160px;
+	height: 167px;
+	left: 101px;
+	top: 43px;
+}	
+
+	
+	
+	
+	
+.event_mode_line{
+	width:1px;
+	height:230px;
+	float:left;
+	border-right:#FFF 1px dotted;  
+	margin-top:40px;
+}		
+	
+	
+	
+.wrapper_footer{
+	min-width:1200px;
+	behavior: expression(this.style.width=(document.documentElement.offsetWidth<1200)?"1200px":"100%");
+	height:112px;
+	background-image:url(../img/talking_index_09.png);}
+	
+.wrapper_footer_text{
+	width:600px;
+	margin:0 auto;
+	text-align:center;
+	font-size:12px;
+	font-family:"Lucida Console", Monaco, monospace;
+	color:#FFF;
+	line-height:23px;}
+	
+.wrapper_footer_text a{
+	color:#E1FBFA;
+	line-height:23px;}	
+	
+	
+
+.footerlink{
+	width:900px;
+	height:20px;
+	margin:0 auto;
+	text-align:center;
+	font-size:12px;
+	color:#666;
+	}
+	
+.footerlink a{
+	color:#666;
+	font-size:12px;
+	text-decoration:none;}
+.footerlink a:hover{
+	color:#666;
+	text-decoration:underline;}
+	
+	
+ 
+/*=======插圖更換=======*/
+
+.about_wrapper_cute{
+	width:951px;
+	height:131px;
+	margin:0 auto;
+	background-image:url(../img/talking_2_06.png);}
+
+
+.about_wrapper_cute_bbb{
+	width:951px;
+	height:131px;
+	margin:0 auto;
+	background-image:url(../img/talking_dog.png);}
+
+
+
+
+.about_wrapper_middle{
+	width:951px;
+	margin:0 auto;
+	background-image:url(../img/talking_2_07.png);
+	}
+	
+/*=======左側MENU=======*/	
+.about_left{
+	width:170px;
+	height:500px;
+	float:left;
+	margin-left:30px;}
+
+
+
+
+.about_left ul{}
+.about_left li{}	
+.about_left li a{
+	display:block;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	margin-bottom:5px;
+	font-size:12px;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	background-image:url(../img/ggg0.png);
+	}		
+.about_left li a:hover{
+	background-image:url(../img/ggg.png);}		
+	
+	
+
+/*=======關於talking=======*/	
+	
+.about_right{
+	width:680px;
+	min-height:600px;
+	height:auto !important;
+	height:600px;
+	float:right;
+	margin-right:55px;
+	background-color:#FFF;}
+ 
+.about_hihi{
+	width:600px;
+	margin:0 auto;
+	}
+
+.about_hihi a{
+	font-size:14px;
+	line-height:26px;
+	color:#C60;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-weight:bold;
+	}
+	
+.about_hihi a:hover{
+	color:#F90;}
+
+
+.about_hihi h1{
+	font-size:28px;
+	line-height:20px;
+	color:#39C;
+	font-family:"Lucida Console", Monaco, monospace;
+
+}
+
+.about_hihi h2{
+	font-size:16px;
+	line-height:23px;
+	color:#F60;
+	font-family:"Lucida Console", Monaco, monospace;
+
+}
+
+.about_hihi h3{
+	font-size:15px;
+	line-height:28px;
+	color:#399;
+	font-family:"Lucida Console", Monaco, monospace;
+	
+}
+
+.about_hihi h4{
+	font-size:17px;
+	line-height:28px;
+	color:#C60;
+	font-family:"Lucida Console", Monaco, monospace;
+	
+}
+
+
+.about_hihi p{
+	font-size:13px;
+	line-height:24px;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+	
+
+
+
+
+
+
+
+.about_wrapper_bottom{
+	width:951px;
+	height:169px;margin:0 auto;
+	background-image:url(../img/talking_2_09.png);
+	}
+
+
+
+	
+	
+	
+.wrapper_footer_b{
+	min-width:1200px;
+	behavior: expression(this.style.width=(document.documentElement.offsetWidth<1200)?"1200px":"100%");
+	height:160px;
+	background-image:url(../img/footer.png);
+	background-repeat:repeat-x;
+	background-position:bottom;}
+	
+
+	
+/*=======立即玩talking=======*/	
+	
+.play_right{
+	width:680px;
+	min-height:600px;
+	height:auto !important;
+	height:600px;
+	float:right;
+	margin-right:55px;
+	background-color:#FFF;}
+	
+	
+.play_hihi{
+	width:600px;
+	margin:0 auto;
+	}
+.play_hihi h1{
+	font-size:25px;
+	line-height:20px;
+	color:#39C;
+	font-family:"Lucida Console", Monaco, monospace;
+
+}
+.play_hihi p{
+	font-size:14px;
+	line-height:24px;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+/*=========login=========*/
+
+.login_left{
+	width:160px;
+	height:500px;
+	float:left;
+	margin-left:30px;}
+	
+.login_left ul{}
+.login_left li{}	
+.login_left li a{
+	display:block;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	text-decoration:none;	
+	}		
+.login_left li a:hover{
+	background-image:url(../img/ggg.png);}
+
+
+.login_right{
+	width:680px;
+	min-height:600px;
+	height:auto !important;
+	height:600px;
+	float:right;
+	margin-right:55px;
+	background-color:#FFF;}
+	
+	
+.login_right table{
+	margin:0 auto;
+	}
+	
+	
+.login_box{
+	width:500px;
+	height:400px;
+	margin:0 auto;
+	background-image:url(../img/loginbox.png); }
+
+
+.login_apply{
+	width:600px;
+	margin:0 auto;}
+	
+.login_apply table{
+	margin:0 auto;}	
+
+.login_apply p{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:12px;
+	line-height:18px;
+	color:#699;
+	padding-left:20px;}	
+
+.login_apply_rule{
+	width:544px;
+	margin:0 auto;
+	font-size:12px;
+	border:#666 1px solid;
+	line-height:20px;
+	color:#666;
+	padding:10px;
+	}
+	
+.login_mmmm{
+	width:600px;
+	margin:0 auto;
+	}
+.login_mmmm h1{
+	font-size:23px;
+	line-height:20px;
+	color:#F60;
+}
+.login_mmmm p{
+	font-size:12px;
+	line-height:24px;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+	
+
+.login_box h1{
+	font-size:16px;
+	line-height:25px;
+	font-family:"Lucida Console", Monaco, monospace;
+	color:#369
+ }
+ 
+ .login_box h6{
+	font-size:13px;
+	line-height:20px;
+	font-family:"Lucida Console", Monaco, monospace;
+	color:#666;
+	font-weight:400;
+ }
+ 
+  .login_box p{
+	font-size:14px;
+	font-family:"Lucida Console", Monaco, monospace;
+	color:#666;
+ }
+ 
+ .login_box a{
+	font-size:14px;
+	font-family:"Lucida Console", Monaco, monospace;
+	color:#666;
+	 }
+ 
+
+
+.frame_oo{ border-bottom:1px solid #E4E4E4;}
+.frame_oo td {}
+.frame_oo tr {
+font-size:12px; 
+color:#666;
+line-height:16px;}
+.frame_oo th {border-bottom:1px solid #E4E4E4;
+font-size:12px; 
+color:#666;
+line-height:16px;}
+
+
+
+
+
+
+/*==============*/
+
+.clear{	clear:both;}
+
+
+.w11p_grey{
+	font-size:12px;
+	color:#DFDFDF;}
+	
+	
+	
+	
+#content1 a{
+	font-size:13px;
+	line-height:23px;
+	color:#930;
+	text-decoration:none;}
