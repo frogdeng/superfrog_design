@@ -1,0 +1,473 @@
+@import "bourbon";
+@import "susy";
+@import _map.scss
+
+
+// shorthand
+$desktop: 12 (70px 30px) split
+$pad: 6 (80px 40px) split
+
+$w_desktop: 12 split
+$w_pad: 6 split
+
+$breakpoint_desktop: 891px
+$breakpoint_pad: 0 890px
+
+
+$susy: (debug: (image: hide))
+
+
+$green: #7ED321
+$deep-green: #5AB331
+
+
+
+.index_slick
+	+susy-breakpoint($breakpoint_pad, $w_pad)
+		+container
+		background-size: cover
+		margin-bottom: 80px
+		.main
+			.new_photo
+				img
+					display: block
+					width: 100%
+
+
+	+susy-breakpoint($breakpoint_desktop, $w_desktop)
+		+container
+		background-size: cover
+		margin-bottom: 80px
+		.main
+			.new_photo
+				img
+					display: block
+					width: 100%
+
+
+
+
+
+.middle_slogan_wrapper
+	+susy-breakpoint($breakpoint_pad, $w_pad)
+		+container
+		height: 400px
+		background: url('../img/slash.png')
+
+	+susy-breakpoint($breakpoint_desktop, $w_desktop)
+		+container
+		height: 500px
+		background: url('../img/slash.png')
+
+
+.middle_slogan
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		height: 400px
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		img
+			width: 80%
+
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		height: 500px
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		img
+			width: 40%
+
+
+
+.product_info_wrapper
+	padding: 50px 20px
+	// background: url('../img/slash.png')
+.product_info
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: flex-start
+		align-items: center
+		.product_intro
+			width: 45%
+			height: 350px
+			margin: 20px 2.5%
+			background: #FFF
+			display: flex
+			flex-direction: column
+			justify-content: flex-start
+			align-items: center
+			padding: 50px 20px
+			img
+				display: block
+				margin-bottom: 20px
+				width: 55%
+			h6
+				font-size: 18px
+				color: #c63722
+				text-align: center
+				margin-bottom: 10px
+				font-weight: 800
+				line-height: 1.4
+			p
+				font-size: 15px
+				color: #888
+				text-align: center
+				margin-bottom: 20px
+
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: flex-start
+		align-items: center
+		.product_intro
+			width: 30%
+			height: 350px
+			margin: 20px 15px
+			background: #FFF
+			display: flex
+			flex-direction: column
+			justify-content: flex-start
+			align-items: center
+			padding: 50px 30px
+			img
+				display: block
+				margin-bottom: 20px
+				width: 35%
+			h6
+				font-size: 18px
+				color: #c63722
+				text-align: center
+				margin-bottom: 10px
+				font-weight: 800
+				line-height: 1.4
+			p
+				font-size: 15px
+				color: #888
+				text-align: center
+				margin-bottom: 20px
+
+
+
+
+.kid_image
+	+susy-breakpoint($breakpoint_pad, $w_pad)
+		+container
+		height: 400px
+		background: url('../img/kids.jpg')
+		background-size: cover
+		background-attachment: fixed
+
+
+	+susy-breakpoint($breakpoint_desktop, $w_desktop)
+		+container
+		height: 400px
+		background: url('../img/kids.jpg')
+		background-size: cover
+		background-attachment: fixed
+
+
+.members
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		padding: 0 20px
+		.members_title
+			margin: 30px 20px
+			display: flex
+			flex-direction: row
+			justify-content: flex-start
+			align-items: center
+			h6
+				font-size: 20px
+				margin-right: 20px
+			.l-l
+				height: 1px
+				width: 70%
+				background: #c0c0c0
+		.members_row
+			display: flex
+			flex-wrap: wrap
+			flex-direction: row
+			justify-content: flex-start
+			align-items: center
+
+			.members_item
+				width: 100%
+				// height: 600px
+				background: #FFF
+				margin: 20px 10px
+				transition: all .3s
+				cursor: pointer
+				img
+					display: block
+					margin-bottom: 0px
+				.des
+					padding: 20px 30px
+					h6
+						font-size: 23px
+						margin-bottom: 10px
+						font-weight: 900
+					p
+						font-size: 15px
+						margin-bottom: 2px
+					.more_resume
+						display: block
+						margin-top: 30px
+						border-top: 1px solid rgba(255,255,255,.5)
+
+						h6
+							font-size: 23px
+							margin-bottom: 10px
+							font-weight: 900
+							margin-top: 20px
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		.members_title
+			margin: 30px 20px
+			display: flex
+			flex-direction: row
+			justify-content: flex-start
+			align-items: center
+			h6
+				font-size: 20px
+				margin-right: 20px
+			.l-l
+				height: 1px
+				width: 90%
+				background: #c0c0c0
+		.members_row
+			display: flex
+			flex-wrap: wrap
+			flex-direction: row
+			justify-content: flex-start
+			align-items: center
+
+			.members_item
+				width: 30%
+				height: 600px
+				background: #FFF
+				margin: 20px 10px
+				transition: all .3s
+				cursor: pointer
+				img
+					display: block
+					margin-bottom: 0px
+				.des
+					padding: 20px 30px
+					h6
+						font-size: 23px
+						margin-bottom: 10px
+						font-weight: 900
+					p
+						font-size: 15px
+						margin-bottom: 2px
+					.more_resume
+						display: none
+						margin-top: 30px
+						border-top: 1px solid rgba(255,255,255,.5)
+
+						h6
+							font-size: 23px
+							margin-bottom: 10px
+							font-weight: 900
+							margin-top: 20px
+
+
+.show_detail
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		display: block
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		width: 100% !important
+		height: 700px !important
+		padding: 30px
+		background: #6E6669 !important
+		display: flex !important
+		flex-direction: row !important
+		justify-content: flex-start !important
+		align-items: flex-start !important
+		img
+			height: 350px !important
+			margin-right: 30px
+		.des
+			padding: 0px !important
+			h6, p
+				color: #FFF !important
+			.more_resume
+				display: block !important
+
+
+
+
+.gone
+	display: none
+
+
+
+.section_line
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		width: 100%
+		height: 1px
+		background: #ddd
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		width: 100%
+		height: 1px
+		background: #ddd
+		margin: 60px auto
+
+
+
+
+.contact_us
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		margin-bottom: 140px
+		padding: 0 30px
+		h2
+			font-size: 35px
+			text-align: center
+			margin-bottom: 50px
+			margin-top: 50px
+		.for_flex_contact
+			display: flex
+			flex-direction: column
+			justify-content: space-between
+			align-items: flex-start
+			.contact_info
+				width: 100%
+				margin-bottom: 20px
+				.sumit
+					background: #c63722
+					width: 100%
+					height: 40px
+					color: #FFF
+					font-size: 18px
+					display: flex
+					flex-direction: row
+					justify-content: center
+					align-items: center
+					margin-left: 0px
+					border-radius: 3px
+					transition: all .3s
+					cursor: pointer
+					&:hover
+						background: #222
+				.contact_row
+					width: 100%
+					display: flex
+					flex-direction: row
+					justify-content: flex-start
+					align-items: center
+					margin-bottom: 20px
+					p
+						width: 30%
+					input
+						margin-left: 10px
+						width: 70%
+						height: 40px
+						border: 1px solid #c0c0c0
+						padding: 0 10px
+
+					textarea
+						margin-left: 20px
+						width: 70%
+						padding: 10px
+						border: 1px solid #c0c0c0
+			.contact_img
+				width: 100%
+				.map
+					width: 100%
+					height: 400px
+					iframe
+						width: 100%
+						height: 400px
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		margin-bottom: 140px
+		padding: 0 30px
+		h2
+			font-size: 35px
+			text-align: center
+			margin-bottom: 50px
+			margin-top: 50px
+		.for_flex_contact
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			align-items: flex-start
+			.contact_info
+				width: 48%
+				.sumit
+					background: #c63722
+					width: 200px
+					height: 40px
+					color: #FFF
+					font-size: 18px
+					display: flex
+					flex-direction: row
+					justify-content: center
+					align-items: center
+					margin-left: 120px
+					border-radius: 3px
+					transition: all .3s
+					cursor: pointer
+					&:hover
+						background: #222
+				.contact_row
+					width: 100%
+					display: flex
+					flex-direction: row
+					justify-content: flex-start
+					align-items: center
+					margin-bottom: 20px
+					p
+						width: 100px
+					input
+						margin-left: 20px
+						width: 80%
+						height: 40px
+						border: 1px solid #c0c0c0
+						padding: 0 10px
+
+					textarea
+						margin-left: 20px
+						width: 80%
+						padding: 10px
+						border: 1px solid #c0c0c0
+			.contact_img
+				width: 48%
+				.map
+					width: 100%
+					height: 500px
+					iframe
+						width: 100%
+						height: 400px
+
+
+
+
+
+
+
+
+
+
