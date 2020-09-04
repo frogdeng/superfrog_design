@@ -9,7 +9,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-twig": "^0.7.0",
     "node-bourbon": "^4.2.8",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.13.1",
     "path": "^0.12.7",
     "susy": "^2.2.12"
   },
