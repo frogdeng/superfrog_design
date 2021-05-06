@@ -713,6 +713,10 @@ es6-iterator@2:
     es5-ext "^0.10.7"
     es6-symbol "3"
 
+es6-promise@^4.2.5:
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
+
 es6-symbol@3, es6-symbol@^3.0.2, es6-symbol@~3.1:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/es6-symbol/-/es6-symbol-3.1.0.tgz#94481c655e7a7cad82eba832d97d5433496d7ffa"
@@ -1658,8 +1662,10 @@ localtunnel@1.8.1:
     yargs "3.29.0"
 
 locutus@^2.0.5:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/locutus/-/locutus-2.0.6.tgz#4f7338cc3f0da9f656502490772c1cdce0cfd26f"
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/locutus/-/locutus-2.0.14.tgz#53d259ac7200b0621ed4e5604b6c49993415a455"
+  dependencies:
+    es6-promise "^4.2.5"
 
 lodash._basecopy@^3.0.0:
   version "3.0.1"
