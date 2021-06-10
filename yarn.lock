@@ -1658,8 +1658,8 @@ localtunnel@1.8.1:
     yargs "3.29.0"
 
 locutus@^2.0.5:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/locutus/-/locutus-2.0.6.tgz#4f7338cc3f0da9f656502490772c1cdce0cfd26f"
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/locutus/-/locutus-2.0.15.tgz#d75b9100713aaaf30be8b38ed6543910498c0db0"
 
 lodash._basecopy@^3.0.0:
   version "3.0.1"
